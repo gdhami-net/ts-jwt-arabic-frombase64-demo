@@ -1,0 +1,26 @@
+{
+  "name": "ts-jwt-arabic-frombase64-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One token with an Arabic name, decoded four ways, with the fallback, a tampered copy and the TypeScript step.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=25"
+  },
+  "scripts": {
+    "four-ways": "node src/four-ways.ts",
+    "crash-rate": "node src/crash-rate.ts",
+    "fallback": "node src/fallback.ts",
+    "tamper": "node src/tamper.ts",
+    "tsc-step": "node tsc-step/run.ts",
+    "check": "node check.ts",
+    "browsers": "node src/browsers.ts"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "2.11.35",
+    "browserslist": "4.29.5",
+    "jwt-decode": "4.0.0",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.angular-default.json",
+  "compilerOptions": {
+    "lib": ["esnext"]
+  }
+}

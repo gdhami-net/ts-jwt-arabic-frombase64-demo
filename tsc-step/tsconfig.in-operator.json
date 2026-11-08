@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.with-lib.json",
+  "files": ["./in-operator.ts"]
+}

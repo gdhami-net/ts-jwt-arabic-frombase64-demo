@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.angular-default.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "dom", "esnext.typedarrays"]
+  }
+}
